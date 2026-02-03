@@ -6,7 +6,7 @@ int l_search(int arr[], int size, int target)
     {
         if (arr[i] == target)
         {
-            printf("Found at index: %d", i);
+            printf("Found at index: %d\n", i);
             printf("Comparisons = %d", i + 1);
             return i;
         }
@@ -28,4 +28,5 @@ int main()
     l_search(arr1, n, tar);
 
     return 0;
+
 }
